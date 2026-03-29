@@ -5,10 +5,10 @@ def generate_explanation(skill_name, skill):
     automation = skill["automation_risk"]
     alternative = skill["alternative"]
 
-    # Score calculation
+    
     avg_score = (demand + salary + growth) / 3
 
-    # Decision logic
+    
     if avg_score < 5 or automation >= 7:
         decision = "Avoid ❌"
     elif avg_score < 7:
@@ -16,7 +16,7 @@ def generate_explanation(skill_name, skill):
     else:
         decision = "Good to Learn ✅"
 
-    # Build explanation
+   
     reasons = []
 
     if demand < 5:
