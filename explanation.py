@@ -10,11 +10,11 @@ def generate_explanation(skill_name, skill):
 
     
     if avg_score < 5 or automation >= 7:
-        decision = "Avoid ❌"
+        decision = "Avoid "
     elif avg_score < 7:
-        decision = "Moderate ⚠️"
+        decision = "Moderate "
     else:
-        decision = "Good to Learn ✅"
+        decision = "Good to Learn "
 
    
     reasons = []
