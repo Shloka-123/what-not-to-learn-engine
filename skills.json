@@ -1,0 +1,58 @@
+{
+  "php": {
+    "demand": 4,
+    "salary": 5,
+    "growth": 3,
+    "automation_risk": 6,
+    "alternative": "Node.js"
+  },
+  "manual testing": {
+    "demand": 5,
+    "salary": 5,
+    "growth": 4,
+    "automation_risk": 8,
+    "alternative": "Selenium"
+  },
+  "data entry": {
+    "demand": 3,
+    "salary": 2,
+    "growth": 2,
+    "automation_risk": 9,
+    "alternative": "Data Analysis"
+  },
+  "ai": {
+    "demand": 10,
+    "salary": 10,
+    "growth": 10,
+    "automation_risk": 2,
+    "alternative": "Advanced AI Specialization"
+  },
+  "machine learning": {
+    "demand": 9,
+    "salary": 9,
+    "growth": 10,
+    "automation_risk": 2,
+    "alternative": "Deep Learning"
+  },
+  "data science": {
+    "demand": 9,
+    "salary": 9,
+    "growth": 9,
+    "automation_risk": 3,
+    "alternative": "AI Engineering"
+  },
+  "cybersecurity": {
+    "demand": 9,
+    "salary": 8,
+    "growth": 10,
+    "automation_risk": 2,
+    "alternative": "Cloud Security"
+  },
+  "cloud computing": {
+    "demand": 9,
+    "salary": 9,
+    "growth": 10,
+    "automation_risk": 2,
+    "alternative": "DevOps"
+  }
+}
